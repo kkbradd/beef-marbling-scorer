@@ -1,4 +1,4 @@
-# CowinBMS - Beef Marbling Score Prediction
+# Beef Marbling Score Prediction
 
 [![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)](https://www.python.org/)
 [![PyTorch](https://img.shields.io/badge/PyTorch-1.9+-orange.svg)](https://pytorch.org/)
@@ -24,7 +24,7 @@ AI-powered beef quality assessment system using computer vision and deep learnin
 
 ### Visual Comparison
 
-![Comparison Example](examples/results/comparisons/compare_wagyu-ribeye_iStock-844693654_4_480x480.jpg)
+[![Comparison Example](examples/results/comparisons/compare_wagyu-ribeye_iStock-844693654_4_480x480.jpg)]
 
 Side-by-side comparison showing two beef samples with their predictions (Category, USDA grade, BMS score, MI, and Confidence).
 
