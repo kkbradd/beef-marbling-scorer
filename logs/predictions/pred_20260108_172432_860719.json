@@ -1,0 +1,21 @@
+{
+  "timestamp": "2026-01-08T17:24:32.860458",
+  "image": {
+    "path": "/private/var/folders/kc/t20h2lcd7fggn25xx34q0kj40000gn/T/tmpv6_65api.jpg",
+    "filename": "tmpv6_65api.jpg"
+  },
+  "prediction": {
+    "base_category": "Wagyu",
+    "mi": 0.0165,
+    "usda": "Beyond Prime",
+    "marbling_degree": "Very Abundant",
+    "jmga_bms": 3,
+    "aus_meat": 6
+  },
+  "confidence": {
+    "base": 0.658,
+    "usda": 0.658,
+    "bms": 0.55
+  },
+  "warnings": []
+}

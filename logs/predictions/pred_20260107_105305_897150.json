@@ -1,0 +1,21 @@
+{
+  "timestamp": "2026-01-07T10:53:05.896955",
+  "image": {
+    "path": "/private/var/folders/kc/t20h2lcd7fggn25xx34q0kj40000gn/T/tmp9_tjd2y8.jpeg",
+    "filename": "tmp9_tjd2y8.jpeg"
+  },
+  "prediction": {
+    "base_category": "Select",
+    "mi": 0.0101,
+    "usda": "Select",
+    "marbling_degree": "Slight",
+    "jmga_bms": 1,
+    "aus_meat": 0
+  },
+  "confidence": {
+    "base": 0.937,
+    "usda": 0.937,
+    "bms": 0.55
+  },
+  "warnings": []
+}
