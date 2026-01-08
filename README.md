@@ -24,7 +24,7 @@ AI-powered beef quality assessment system using computer vision and deep learnin
 
 ### Visual Comparison
 
-![Comparison Example](./examples/results/comparisons/compare_wagyu-ribeye_iStock-844693654_4_480x480.jpg)
+![Comparison Example](https://github.com/kkbradd/beef-marbling-scorer/blob/main/examples/results/comparisons/compare_wagyu-ribeye_iStock-844693654_4_480x480.jpg?raw=true)
 
 Side-by-side comparison showing two beef samples with their predictions (Category, USDA grade, BMS score, MI, and Confidence).
 
