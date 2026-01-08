@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # CowinBMS - Beef Marbling Score Prediction
 
 [![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)](https://www.python.org/)
@@ -399,3 +400,6 @@ Contributions, issues, and feature requests are welcome! Feel free to check the 
 ---
 
 **Made with ❤️ for beef quality assessment**
+=======
+# beef-marbling-scorer
+>>>>>>> 8d8058c4aa58e604054fb8d4508d14b143ecc01a
