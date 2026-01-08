@@ -1,0 +1,133 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environment
+venv/
+env/
+ENV/
+.venv
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb
+
+# PyTorch
+*.pth
+*.pt
+*.ckpt
+!src/models/efficientNet_v1.pth  # Keep the model file
+
+# Logs
+logs/
+*.log
+
+# Output directories (generated files)
+outputs/
+segmented_images/
+test_outputs/
+
+# Keep examples directory structure but ignore generated content
+# Note: Example files in examples/ are tracked for GitHub
+examples/test_images/*
+!examples/test_images/.gitkeep
+!examples/test_images/*.jpg
+!examples/test_images/*.jpeg
+!examples/test_images/*.png
+
+examples/sample_outputs/*
+!examples/sample_outputs/.gitkeep
+!examples/sample_outputs/*.json
+
+examples/metrics/*
+!examples/metrics/.gitkeep
+!examples/metrics/*.csv
+!examples/metrics/*.json
+examples/metrics/screenshots/*
+!examples/metrics/screenshots/.gitkeep
+!examples/metrics/screenshots/*.png
+
+examples/results/*
+!examples/results/.gitkeep
+examples/results/visualizations/*
+!examples/results/visualizations/.gitkeep
+!examples/results/visualizations/*.jpg
+!examples/results/visualizations/*.png
+examples/results/comparisons/*
+!examples/results/comparisons/.gitkeep
+!examples/results/comparisons/*.jpg
+examples/results/exports/*
+!examples/results/exports/.gitkeep
+!examples/results/exports/*.json
+!examples/results/exports/*.csv
+examples/results/segmented/*
+!examples/results/segmented/.gitkeep
+!examples/results/segmented/*.jpg
+!examples/results/segmented/*.jpeg
+!examples/results/segmented/*.png
+
+# Data directories (large files)
+data/processed/
+data/raw/
+kaggle_dataset/images/
+kaggle_dataset.zip
+
+# Environment variables
+.env
+.env.local
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.swp
+
+# Coverage reports
+htmlcov/
+.coverage
+.coverage.*
+coverage.xml
+*.cover
+
+# pytest
+.pytest_cache/
+.tox/
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+

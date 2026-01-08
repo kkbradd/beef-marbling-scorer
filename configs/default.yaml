@@ -1,0 +1,37 @@
+model:
+  path: "src/models/efficientNet_v1.pth"
+  backbone: "efficientnet_b0"
+  num_classes: 5
+
+paths:
+  project_root: "."
+  data_dir: "kaggle_dataset"
+  images_dir: "kaggle_dataset/images"
+  web_test_dir: "web_test_images"
+  segmented_output_dir: "segmented_images"
+  logs_dir: "logs"
+
+classes:
+  names: ["Select", "Choice", "Prime", "Wagyu", "Japanese A5"]
+
+segmentation:
+  enabled: true
+  method: "color_based"  # Options: "color_based", "otsu", "adaptive"
+  min_meat_ratio: 0.05
+
+inference:
+  batch_size: 8
+  confidence_threshold: 0.5
+  save_visualizations: true
+  visualization_output_dir: "outputs/visualizations"
+
+logging:
+  level: "INFO"  # DEBUG, INFO, WARNING, ERROR
+  log_to_file: true
+  log_file: "logs/app.log"
+
+api:
+  host: "0.0.0.0"
+  port: 8000
+  max_file_size: 10485760  # 10MB
+  allowed_extensions: [".jpg", ".jpeg", ".png", ".bmp", ".tiff", ".tif"]

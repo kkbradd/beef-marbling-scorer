@@ -1,0 +1,8 @@
+timestamp,image_path,base_category,mi,usda,marbling_degree,jmga_bms,aus_meat,base_confidence,usda_confidence,bms_confidence
+2026-01-07T10:42:30.790374,/private/var/folders/kc/t20h2lcd7fggn25xx34q0kj40000gn/T/tmpgrpzpckj.jpg,Wagyu,0.0165,Beyond Prime,Very Abundant,3,6,0.658,0.658,0.55
+2026-01-07T10:42:46.292244,/private/var/folders/kc/t20h2lcd7fggn25xx34q0kj40000gn/T/tmpj7zqtr0v.jpg,Wagyu,0.0165,Beyond Prime,Very Abundant,3,6,0.658,0.658,0.55
+2026-01-07T10:43:47.370739,/private/var/folders/kc/t20h2lcd7fggn25xx34q0kj40000gn/T/tmps98m74xr.jpeg,Select,0.0171,Select,Slight,1,0,0.995,0.995,0.55
+2026-01-07T10:44:00.358195,/private/var/folders/kc/t20h2lcd7fggn25xx34q0kj40000gn/T/tmpcnrbwwvn.jpeg,Select,0.0101,Select,Slight,1,0,0.937,0.937,0.55
+2026-01-07T10:52:46.250971,/private/var/folders/kc/t20h2lcd7fggn25xx34q0kj40000gn/T/tmpy87_10ut.jpeg,Select,0.0347,Select,Slight,1,0,0.907,0.907,0.55
+2026-01-07T10:52:55.303065,/private/var/folders/kc/t20h2lcd7fggn25xx34q0kj40000gn/T/tmpw5k4w7og.jpg,Wagyu,0.0165,Beyond Prime,Very Abundant,3,6,0.658,0.658,0.55
+2026-01-07T10:53:05.896955,/private/var/folders/kc/t20h2lcd7fggn25xx34q0kj40000gn/T/tmp9_tjd2y8.jpeg,Select,0.0101,Select,Slight,1,0,0.937,0.937,0.55
